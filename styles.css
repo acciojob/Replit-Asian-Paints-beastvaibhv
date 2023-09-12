@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+  #grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+.grid-item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+
+        .grid-item.transparent {
+            background-color: transparent;
+        }
